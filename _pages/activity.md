@@ -7,7 +7,7 @@ nav_order: 1
 pagination:
   enabled: true
   collection: posts
-  permalink: /page/:num/
+  permalink: /activity/page/:num/
   per_page: 5
   sort_field: date
   sort_reverse: true
@@ -85,7 +85,7 @@ pagination:
 
                     <p class="post-meta">
                       {{ read_time }} min read &nbsp; &middot; &nbsp;
-                      <a href="{{ year | d: '/blog/' | relative_url }}">
+                      <a href="{{ year | d: '/activity/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
                   </div>
@@ -154,7 +154,7 @@ pagination:
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
+            <a href="{{ tag | slugify | prepend: '/activity/tag/' | relative_url }}">
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
               {% unless forloop.last %}
                 &nbsp;
@@ -165,7 +165,7 @@ pagination:
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
-            <a href="{{ category | slugify | d: '/blog/category/' | relative_url }}">
+            <a href="{{ category | slugify | d: '/activity/category/' | relative_url }}">
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
               {% unless forloop.last %}
                 &nbsp;
