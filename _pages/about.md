@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Etc.
+subtitle: PhD Candidate
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: jack.case@mail.utoronto.ca</p>
-    <p>Student at UTSC (University of Toronto Scarborough)</p>
+    <p>Student at University of Toronto Scarborough</p>
     <p>Toronto, Ontario</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -23,7 +23,7 @@ announcements:
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
