@@ -1,0 +1,25 @@
+
+---
+layout: post
+title: 29th Annual Infectious Diseases Research Day/Canadian Center for Vaccinology Symposium
+date: 2024-04-15
+description: I was invited to give an oral presentation at this event
+categories: presentations
+thumbnail: assets/img/ccfv2024.jpg
+---
+
+I had the privilege of presenting my research at the 29th Annual Infectious Diseases Research Day/Canadian Center for Vaccinology Symposium. This event is held annually in Halifax, NS.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ccfv2024.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ccfv2024_2.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
+</div>
