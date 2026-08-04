@@ -38,7 +38,7 @@ Research Interests: Influenza Pandemic Preparedness, Host-pathogen Interactions,
 
 <div class="row mt-3">
   <div class="col-6 col-md-3 mt-3 mt-md-0">
-    <a href="{{ 'assets/img/about1.jpg' | relative_url }}" data-lightbox="about-gallery" data-title="">
+    <a href="{{ 'assets/img/about1.jpg' | relative_url }}" data-lightbox="about-gallery" data-title="action shot">
       {% include figure.liquid loading="eager" path="assets/img/about1.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; height: 160px; object-fit: cover;" %}
     </a>
   </div>
@@ -48,12 +48,12 @@ Research Interests: Influenza Pandemic Preparedness, Host-pathogen Interactions,
     </a>
   </div>
   <div class="col-6 col-md-3 mt-3 mt-md-0">
-    <a href="{{ 'assets/img/about3.jpg' | relative_url }}" data-lightbox="about-gallery" data-title="">
+    <a href="{{ 'assets/img/about3.jpg' | relative_url }}" data-lightbox="about-gallery" data-title="I was happy about this plaque assay">
       {% include figure.liquid loading="eager" path="assets/img/about3.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; height: 160px; object-fit: cover;" %}
     </a>
   </div>
   <div class="col-6 col-md-3 mt-3 mt-md-0">
-    <a href="{{ 'assets/img/about4.jpg' | relative_url }}" data-lightbox="about-gallery" data-title="">
+    <a href="{{ 'assets/img/about4.jpg' | relative_url }}" data-lightbox="about-gallery" data-title="Cutting out DNA from a gel">
       {% include figure.liquid loading="eager" path="assets/img/about4.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; height: 160px; object-fit: cover;" %}
     </a>
   </div>
