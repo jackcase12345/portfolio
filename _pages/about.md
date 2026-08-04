@@ -9,11 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Email: jack.case@mail.utoronto.ca</p>
-    <p> </p>
-    <p>PhD Candidate, Guzzo Lab </p>
-    <p> </p>
-    <p>University of Toronto Scarborough</p>
+    <p class="mb-3">Email: jack.case@mail.utoronto.ca</p>
+    <p class="mb-3">PhD Candidate, Guzzo Lab</p>
+    <p class="mb-3">University of Toronto Scarborough</p>
 
 images:
   lightbox2: true
